@@ -50,12 +50,12 @@ if (isset($_SESSION['mensagem'])) {
             <h1>Barbearia Dias</h1>
             <center class="cor_index">
                 <img class="brasao" src="imagens/logo_pequena.png" alt="logo_barbearia" width="5%" height="5%">
-                <button type="submit"><a href="index.php">Home</a></button>
-                <button type="submit"><a href="Page_quem_somos.php">Quem somos</a></button>
-                <button type="submit"><a href="Page_Login.php">Entre/Cadastre-se</a></button>
-                <!-- <button type="submit"><a href="Page_Agendamento.php">Agende Agora</a></button> -->
-                <button type="submit"><a href="Page_servicos.php">Serviços</a></button>
-                <button type="submit"><a href="Page_Contato.php">Contato</a></button>
+                <a href="index.php"><button type="submit">Home</button></a> 
+                   <a href="#quem-somos"><button type="submit">Quem somos</button></a>
+                <a href="Page_Login.php"><button type="submit">Entre/Cadastre-se</button></a>
+                <!-- <button type="submit"><a href="Page_Agendamento.php">Agende Agora</button></a> -->
+                <a href="#servicos"><button type="submit">Serviços</button></a>
+                <a href="#contato"><button type="submit">Contato</button></a>
                 <img class="brasaodir" src="imagens/logo_pequena.png" alt="logo_barbearia" width="5%" height="5%">
             </center>
             <hr>
