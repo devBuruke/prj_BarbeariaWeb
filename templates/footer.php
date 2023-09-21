@@ -1,4 +1,4 @@
-   <footer id="footer">
+   <footer id="footer" class="rodape">
        SISTEMA BARBEARIA - Todos os Direitos Reservados - copyright ©
    </footer>
 
