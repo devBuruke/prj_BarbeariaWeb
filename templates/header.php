@@ -50,12 +50,21 @@ if (isset($_SESSION['mensagem'])) {
             <h1 class="titulo">Barbearia Dias</h1>
             <center class="cor_index">
                 <img class="brasao" src="imagens/logo_pequena.png" alt="logo_barbearia" width="5%" height="5%">
+<<<<<<< Updated upstream
                 <a href="index.php"><button class="btn-geral" type="submit">Home</button></a> 
                    <a href="#quem-somos"><button class="btn-geral" type="submit">Quem somos</button></a>
                 <a href="Page_Login.php"><button class="btn-geral" type="submit">Entre/Cadastre-se</button></a>
                 <!-- <button type="submit"><a href="Page_Agendamento.php">Agende Agora</button></a> -->
                 <a href="#servicos"><button class="btn-geral" type="submit">Serviços</button></a>
                 <a href="#contato"><button class="btn-geral" type="submit">Contato</button></a>
+=======
+                <a href="index.php" class="btn-geral" ><button type="submit">Home</button></a> 
+                   <a href="#quem-somos" class="btn-geral"><button type="submit">Quem somos</button></a>
+                <a href="Page_Login.php" class="btn-geral"><button type="submit">Entre/Cadastre-se</button></a>
+                <!-- <button type="submit"><a href="Page_Agendamento.php">Agende Agora</button></a> -->
+                <a href="#servicos" class="btn-geral"><button type="submit">Serviços</button></a>
+                <a href="#contato" class="btn-geral"><button type="submit">Contato</button></a>
+>>>>>>> Stashed changes
                 <img class="brasaodir" src="imagens/logo_pequena.png" alt="logo_barbearia" width="5%" height="5%">
             </center>
             <hr>

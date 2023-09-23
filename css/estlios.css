@@ -208,6 +208,7 @@ label {
   font-size: 50px;
 }
 
+<<<<<<< Updated upstream
 .btn-geral {
 
   border: none;
@@ -230,6 +231,29 @@ a {
   background-color: #e9bb95;
 }
 
+=======
+.btn-geral{
+  border: none;
+  gap: 60px;
+  border: none;
+  padding: 10px 4%;
+  cursor: pointer;
+  color: #6b6666;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* a {
+  text-decoration: none;
+  color: #323232
+} */
+
+.btn-geral:hover {
+  transition: 0.5s;
+  color: #e9bb95;
+}
+
+>>>>>>> Stashed changes
 
 /* * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
